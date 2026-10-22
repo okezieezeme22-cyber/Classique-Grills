@@ -152,7 +152,7 @@ function AboutSection() {
           <Photo src="classique_grills_assets/grilled-fish-and-bole.jpg" alt="Grilled fish served with ripe plantain and pepper sauce" label="Grilled fish and bole" />
         </div>
         <div>
-          <Eyebrow>About Classique Grills</Eyebrow>
+          <Eyebrow>About Us</Eyebrow>
           <h2 id="about-title" className="font-poppins text-3xl font-extrabold text-ink sm:text-4xl lg:text-5xl">Good food is better <span className="text-gold">shared.</span></h2>
           <p className="mt-5 max-w-xl text-neutral-600 sm:text-lg">We bring grilled favourites and familiar Nigerian flavours to the table. From smoky chicken to fish and bole, our menu is made for sharing a meal, catching up, and enjoying the moment.</p>
           <a href="#menu" className={btnGold + ' mt-8'}>Explore Our Menu</a>
