@@ -9,7 +9,7 @@ window.ClassiqueContent = {
     socials: [],
   },
   images: { hero: 'classique_grills_assets/hero-grilled-food-platter.jpg' },
-  navigation: [['Home', 'home'], ['Menu', 'menu'], ['About Us', 'visit'], ['Gallery', 'menu'], ['Contact', 'visit']],
+  navigation: [['Home', 'home'], ['Menu', 'menu'], ['About Us', 'about'], ['Gallery', 'menu'], ['Contact', 'visit']],
   dishes: [
     { name: 'Grilled Chicken & Chips', image: 'classique_grills_assets/grilled-chicken-and-chips.jpg', alt: 'Grilled chicken served with golden fries and pepper sauce', text: 'Juicy, well-seasoned grilled chicken served with golden fries.' },
     { name: 'Grilled Fish & Bole', image: 'classique_grills_assets/grilled-fish-and-bole.jpg', alt: 'Grilled fish with ripe plantain and pepper sauce', text: 'Freshly grilled fish served with ripe plantain (bole) and pepper sauce.' },

@@ -144,6 +144,24 @@ function WhyChooseUs() {
   );
 }
 
+function AboutSection() {
+  return (
+    <section id="about" aria-labelledby="about-title" className="bg-white">
+      <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 md:py-24 lg:grid-cols-2 lg:gap-16 lg:px-8">
+        <div className="aspect-[4/3] overflow-hidden rounded-3xl border border-black/10 shadow-lg">
+          <Photo src="classique_grills_assets/grilled-fish-and-bole.jpg" alt="Grilled fish served with ripe plantain and pepper sauce" label="Grilled fish and bole" />
+        </div>
+        <div>
+          <Eyebrow>About Classique Grills</Eyebrow>
+          <h2 id="about-title" className="font-poppins text-3xl font-extrabold text-ink sm:text-4xl lg:text-5xl">Good food is better <span className="text-gold">shared.</span></h2>
+          <p className="mt-5 max-w-xl text-neutral-600 sm:text-lg">We bring grilled favourites and familiar Nigerian flavours to the table. From smoky chicken to fish and bole, our menu is made for sharing a meal, catching up, and enjoying the moment.</p>
+          <a href="#menu" className={btnGold + ' mt-8'}>Explore Our Menu</a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function InfoRow({ icon, title, children }) {
   return (
     <li className="flex gap-4">
@@ -210,7 +228,7 @@ function Footer() {
 }
 
 function App() {
-  return <><Navbar /><main><HeroSection /><MenuSection /><WhyChooseUs /><LocationSection /></main><Footer /></>;
+  return <><Navbar /><main><HeroSection /><MenuSection /><WhyChooseUs /><AboutSection /><LocationSection /></main><Footer /></>;
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
