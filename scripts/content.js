@@ -8,12 +8,12 @@ window.ClassiqueContent = {
     mapsQuery: 'Senior Staff Club Bush Bar University of Nigeria Nsukka 410001',
     socials: [],
   },
-  images: { hero: '' },
+  images: { hero: 'classique_grills_assets/hero-grilled-food-platter.jpg' },
   navigation: [['Home', 'home'], ['Menu', 'menu'], ['About Us', 'visit'], ['Gallery', 'menu'], ['Contact', 'visit']],
   dishes: [
-    { name: 'Grilled Chicken & Chips', image: '', alt: 'Grilled chicken served with golden fries and pepper sauce', text: 'Juicy, well-seasoned grilled chicken served with golden fries.' },
-    { name: 'Grilled Fish & Bole', image: '', alt: 'Grilled fish with ripe plantain and pepper sauce', text: 'Freshly grilled fish served with ripe plantain (bole) and pepper sauce.' },
-    { name: 'Chicken Wings', image: '', alt: 'Spicy grilled chicken wings in a rich sauce', text: 'Spicy, smoky and full of flavour. Perfect for sharing.' },
+    { name: 'Grilled Chicken & Chips', image: 'classique_grills_assets/grilled-chicken-and-chips.jpg', alt: 'Grilled chicken served with golden fries and pepper sauce', text: 'Juicy, well-seasoned grilled chicken served with golden fries.' },
+    { name: 'Grilled Fish & Bole', image: 'classique_grills_assets/grilled-fish-and-bole.jpg', alt: 'Grilled fish with ripe plantain and pepper sauce', text: 'Freshly grilled fish served with ripe plantain (bole) and pepper sauce.' },
+    { name: 'Chicken Wings', image: 'classique_grills_assets/grilled-chicken-wings.jpg', alt: 'Spicy grilled chicken wings in a rich sauce', text: 'Spicy, smoky and full of flavour. Perfect for sharing.' },
   ],
   features: [
     { icon: 'flame', title: 'Freshly Grilled', text: 'Quality ingredients, grilled to perfection.' },
